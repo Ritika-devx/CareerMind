@@ -1,0 +1,15 @@
+{
+  "agent": "Job Clustering",
+  "dataset_type": "synthetic academic dataset",
+  "deployable_model": "K-Means",
+  "input_features": [
+    "job_title",
+    "skills"
+  ],
+  "pca_components": 2,
+  "selected_k": 7,
+  "silhouette_full_dataset": 0.7111055254936218,
+  "coverage": 1.0,
+  "dataset_rows": 6000,
+  "label_usage": "job_category excluded from training and selection; used only for post-hoc interpretation"
+}

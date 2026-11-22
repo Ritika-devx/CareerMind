@@ -1,0 +1,6 @@
+Algorithm,Parameters,Clusters,Silhouette,Noise points,Coverage
+Hierarchical,K=6,6,0.6615878,0,1.0
+Hierarchical,K=7,7,0.6827333,0,1.0
+Hierarchical,K=8,8,0.64779514,0,1.0
+Hierarchical,K=9,9,0.61756426,0,1.0
+Hierarchical,K=10,10,0.61617863,0,1.0

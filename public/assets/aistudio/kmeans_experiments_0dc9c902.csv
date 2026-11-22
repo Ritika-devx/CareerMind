@@ -1,0 +1,11 @@
+Features,PCA components,K,Clusters,Silhouette,Coverage
+job_title + skills,2,7,7,0.7111055,1.0
+job_title + skills,2,6,6,0.6821452,1.0
+job_title + skills,2,8,8,0.6694289,1.0
+job_title + skills,3,7,7,0.6613781,1.0
+job_title + skills,3,6,6,0.63758475,1.0
+job_title + skills,2,9,9,0.6294217,1.0
+job_title + skills,3,8,8,0.62059116,1.0
+job_title + skills,2,10,10,0.5919095,1.0
+job_title + skills,3,9,9,0.56922156,1.0
+job_title + skills,3,10,10,0.441218,1.0

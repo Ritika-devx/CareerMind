@@ -1,0 +1,16 @@
+{
+  "agent": "Job Classification",
+  "selected_model": "SVM (LinearSVC)",
+  "selection_metric": "macro F1, accuracy as tie-breaker",
+  "test_metrics": {
+    "Model": "SVM (LinearSVC)",
+    "Accuracy": 0.9516666666666667,
+    "Precision_macro": 0.9518483242185103,
+    "Recall_macro": 0.9516666666666667,
+    "F1_macro": 0.951583816061856
+  },
+  "cross_validation_macro_f1_mean": 0.948040031976251,
+  "cross_validation_macro_f1_std": 0.005874734095752083,
+  "dataset_rows": 6000,
+  "dataset_type": "synthetic academic dataset"
+}

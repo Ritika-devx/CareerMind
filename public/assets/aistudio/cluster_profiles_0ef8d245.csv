@@ -1,0 +1,8 @@
+cluster_id,job_count,top_job_title,top_location,average_experience,average_salary_inr,most_common_category,common_skills
+0,195,Operations Associate,Hyderabad,5.066666666666666,860871.7948717949,Data Analytics,"Problem Solving, Data Analysis, SQL, Excel, Python, Git, Communication, Agile, Data Visualization, Documentation"
+1,953,Project Associate,Gurugram,5.547743966421826,882214.0608604407,Human Resources,"Project Coordination, Python, Excel, SQL, Git, Communication, Documentation, Agile, Linux, Interviewing"
+2,853,Engineer,Noida,5.738569753810082,901641.2661195779,Data Science & AI,"Problem Solving, Excel, Python, SQL, Agile, Communication, Git, Documentation, Pandas, Linux"
+3,2623,Developer,Chennai,5.393633244376668,879359.5120091499,Finance & Accounting,"Excel, Python, Communication, SQL, Git, Documentation, Agile, Power BI, Java, Linux"
+4,212,Project Associate,Noida,5.306603773584905,910943.3962264151,Cloud & DevOps,"Problem Solving, Project Coordination, Python, Excel, Communication, Git, SQL, Agile, Documentation, Java"
+5,249,Project Associate,Noida,5.620481927710843,908755.0200803212,Data Analytics,"Project Coordination, Data Analysis, Python, Excel, SQL, Documentation, Git, Data Visualization, Communication, Agile"
+6,915,Analyst,Bengaluru,5.714754098360656,898404.3715846995,Data Analytics,"Data Analysis, Excel, Python, SQL, Communication, Git, Agile, Documentation, Data Visualization, Power BI"

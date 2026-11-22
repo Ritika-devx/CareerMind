@@ -1,0 +1,6 @@
+{
+  "name": "CareerMind",
+  "description": "AI-Powered Job Market Intelligence System integrating Job Classification, Salary Prediction, and Job Clustering.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

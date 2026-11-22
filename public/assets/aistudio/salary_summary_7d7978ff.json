@@ -1,0 +1,10 @@
+{
+    "agent": "Salary Prediction",
+    "selected_model": "Random Forest",
+    "test_r2": 0.815366,
+    "test_mae_inr": 140272.219356,
+    "test_rmse_inr": 194442.112779,
+    "target": "average_annual_salary_inr",
+    "target_unit": "annual INR",
+    "dataset_type": "synthetic academic dataset"
+}

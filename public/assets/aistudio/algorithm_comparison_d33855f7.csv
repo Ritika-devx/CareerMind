@@ -1,0 +1,4 @@
+Algorithm,Parameters,Clusters,Silhouette,Noise points,Coverage
+K-Means,K=7,7,0.7054179906845093,0,1.0
+Hierarchical,K=7,7,0.6827332973480225,0,1.0
+DBSCAN,"eps=0.05, min_samples=10",2,0.47448837757110596,12,0.9952
