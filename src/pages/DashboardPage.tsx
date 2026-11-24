@@ -47,11 +47,7 @@ export function DashboardPage({
       <section className="cm-page-header">
         <div>
           <h1 className="cm-page-title">CareerMind Job Market Intelligence</h1>
-          <p className="cm-page-subtitle">
-            Academic machine learning system combining trained job classification,
-            annual salary estimation in INR, and unsupervised job clustering across
-            a curated dataset of {data.dataset.total_records.toLocaleString('en-IN')} Indian job postings.
-          </p>
+         
           <div className="cm-meta-line">
             <span>{data.dataset.unique_categories} Job Categories</span>
             <span aria-hidden="true">·</span>
@@ -125,11 +121,7 @@ export function DashboardPage({
                   <h2 className="cm-card-title">Job Classification Agent</h2>
                 </div>
               </div>
-              <p className="cm-card-desc" style={{ fontSize: '14px', color: 'var(--text-slate)' }}>
-                Predicts one of {data.dataset.unique_categories} job categories from
-                combined job text (title, description, skills), location, and
-                midpoint experience using {clfMetrics.selected_model}.
-              </p>
+            
             </div>
 
             <div>
@@ -173,11 +165,7 @@ export function DashboardPage({
                   <h2 className="cm-card-title">Salary Prediction Agent</h2>
                 </div>
               </div>
-              <p className="cm-card-desc" style={{ fontSize: '14px', color: 'var(--text-slate)' }}>
-                Chains Agent 01&apos;s predicted category (with manual override
-                support) into the improved {salMetrics.selected_model} pipeline
-                across 9 structured features to estimate annual INR compensation.
-              </p>
+            
             </div>
 
             <div>
@@ -220,11 +208,7 @@ export function DashboardPage({
                   <h2 className="cm-card-title">Job Clustering Agent</h2>
                 </div>
               </div>
-              <p className="cm-card-desc" style={{ fontSize: '14px', color: 'var(--text-slate)' }}>
-                Projects job title and skills through the saved TF-IDF vectorizer
-                and {cluMetrics.pca_components}D PCA reducer, assigning postings to
-                one of {cluMetrics.selected_k} K-Means clusters with full profile lookup.
-              </p>
+             
             </div>
 
             <div>

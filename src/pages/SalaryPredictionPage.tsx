@@ -101,11 +101,7 @@ export function SalaryPredictionPage({
       <section className="cm-page-header">
         <div>
           <h1 className="cm-page-title">Salary Prediction Agent</h1>
-          <p className="cm-page-subtitle">
-            Two-stage inference workflow: Agent 1 classifies the job category first
-            (unless manually overridden), then passes all 9 features into the
-            improved RandomForestRegressor (Test R² = 0.8154).
-          </p>
+          
         </div>
         <button
           type="button"
@@ -302,9 +298,7 @@ export function SalaryPredictionPage({
           <div className="cm-card-header">
             <div>
               <h2 className="cm-card-title">Chained Pipeline Output</h2>
-              <p className="cm-card-desc">
-                Artifact: salary_random_forest_candidate.joblib
-              </p>
+            
             </div>
           </div>
 

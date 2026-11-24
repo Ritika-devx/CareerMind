@@ -85,10 +85,7 @@ export function ClassificationPage({
       <section className="cm-page-header">
         <div>
           <h1 className="cm-page-title">Job Classification Agent</h1>
-          <p className="cm-page-subtitle">
-            Classifies a job posting into one of 12 domain categories using the
-            trained LinearSVC pipeline on combined text, location, and experience midpoint.
-          </p>
+         
         </div>
         <button
           type="button"
@@ -104,9 +101,7 @@ export function ClassificationPage({
           <div className="cm-card-header">
             <div>
               <h2 className="cm-card-title">Job Profile Input</h2>
-              <p className="cm-card-desc">
-                Pipeline inputs: combined_text (title + description + skills), location, experience_midpoint_years.
-              </p>
+              
             </div>
           </div>
 
@@ -224,9 +219,7 @@ export function ClassificationPage({
           <div className="cm-card-header">
             <div>
               <h2 className="cm-card-title">Classification Result</h2>
-              <p className="cm-card-desc">
-                Live output from job_classifier_best.joblib (SVM LinearSVC)
-              </p>
+             
             </div>
           </div>
 

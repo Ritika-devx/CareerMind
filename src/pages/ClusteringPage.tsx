@@ -93,11 +93,7 @@ export function ClusteringPage({
       <section className="cm-page-header">
         <div>
           <h1 className="cm-page-title">Job Clustering Agent</h1>
-          <p className="cm-page-subtitle">
-            Transforms job title and skills via the saved TF-IDF vectorizer (3,033 terms),
-            2-component PCA reducer, and K-Means (K=7, Silhouette = 0.7111) to assign
-            a cluster ID and look up its dataset profile.
-          </p>
+        
         </div>
         <button
           type="button"
@@ -113,9 +109,7 @@ export function ClusteringPage({
           <div className="cm-card-header">
             <div>
               <h2 className="cm-card-title">Assign Job to Cluster</h2>
-              <p className="cm-card-desc">
-                Inputs: job_title + skills (location, salary, and job_category are excluded from clustering).
-              </p>
+              
             </div>
           </div>
 
@@ -202,9 +196,7 @@ export function ClusteringPage({
           <div className="cm-card-header">
             <div>
               <h2 className="cm-card-title">Assigned Cluster Profile</h2>
-              <p className="cm-card-desc">
-                Mapped directly from cluster_profiles.csv and cluster_category_mix_posthoc.csv
-              </p>
+             
             </div>
           </div>
 

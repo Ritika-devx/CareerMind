@@ -56,10 +56,7 @@ export function ModelPerformancePage() {
       <section className="cm-page-header">
         <div>
           <h1 className="cm-page-title">Model Evaluation &amp; Comparison</h1>
-          <p className="cm-page-subtitle">
-            Authentic evaluation metrics loaded directly from the supplied summary JSONs
-            and model comparison CSV outputs on the 6,000-row synthetic academic dataset.
-          </p>
+         
         </div>
       </section>
 

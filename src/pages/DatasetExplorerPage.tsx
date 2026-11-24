@@ -73,10 +73,7 @@ export function DatasetExplorerPage({ onSendJobToAgent }: DatasetExplorerPagePro
       <section className="cm-page-header">
         <div>
           <h1 className="cm-page-title">Dataset Explorer</h1>
-          <p className="cm-page-subtitle">
-            Browse, search, and filter records directly from careermind_master_dataset_v2.csv
-            served through the Express backend without a database.
-          </p>
+          
         </div>
       </section>
 
@@ -181,8 +178,7 @@ export function DatasetExplorerPage({ onSendJobToAgent }: DatasetExplorerPagePro
               </div>
               <div className="cm-divider" />
               <div style={{ fontSize: '12px', color: 'var(--text-slate)', lineHeight: 1.6 }}>
-                <strong>Columns:</strong>{' '}
-                <span className="tabular-nums">{data.overview.columns.join(' · ')}</span>
+             
               </div>
             </div>
           </section>
