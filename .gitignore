@@ -9,3 +9,4 @@ coverage/
 .pydeps/
 __pycache__/
 *.pyc
+.venv/
